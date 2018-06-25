@@ -10,4 +10,4 @@ stdin input allows us to use import as one-short and shutdown automatically
     logstash -f csv\csv2es-stdin.conf < I:\dev\softpack\noosh_elasticsearch\logstash-2.0.0_csv\bin\csv1\STP20160425.csv
     
 ###### on linux 
-    logstash -f csv\csv2es-stdin.conf < /opt/logstash_2.1.1/bin/csv/data/STP20160425.csv     
+    logstash -f csv/csv2es-stdin.conf < /opt/logstash_2.1.1/bin/csv/data/STP20160425.csv     
